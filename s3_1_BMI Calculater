@@ -1,0 +1,14 @@
+#BMI Calculater
+
+
+A=float(input("Please enter your height\n"))
+B=float(input("Please enter your weight\n"))
+X=(A/100)**2
+if B/X<18.5:
+	print('your BMI is very low!!')
+elif B/X>18.5 and B/X<24.9:
+    print('your BMI is normal!')
+elif B/X>25 and B/X<29.9:
+    print("your BMI is very high")
+elif B/X>30 and B/X<39.9:
+	print('your BMI is very very high!!')
